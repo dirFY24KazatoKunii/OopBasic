@@ -16,8 +16,8 @@ public class objectSample {
         System.out.println("");
 
         // インスタンスの作成
-        var devDepartment = new Department("開発部", "yy", 0);
-        var engineer = new Employee("田中", devDepartment, "一般社員", 88);
+        var dev = new Department("開発部", "yy", 0);
+        var engineer = new Employee("田中", dev, "一般社員", 88);
 
         // インスタンスメソッドの呼び出し
         engineer.report();
